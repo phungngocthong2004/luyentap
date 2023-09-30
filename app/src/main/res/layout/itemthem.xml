@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/edngaythi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="nhap ngay thi: "
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/edca"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="nhap ca: "
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/edphomngthi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="nhap phongthi: "
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/edtenmon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="nhap ten mon: "
+        android:minHeight="48dp" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/themm"
+        android:layout_gravity="center"
+        android:text="add"/>
+
+</LinearLayout>
